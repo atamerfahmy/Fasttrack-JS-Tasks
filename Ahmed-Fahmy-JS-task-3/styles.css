@@ -1,0 +1,413 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: black;
+    --background-color: #44b1f6;
+    --grey-color: grey;
+    --light-grey-color: #949494;
+    --simon-color: #ead1cc;
+    --border-color: #ebebeb;
+    --profile-photo-color: #bd9281;
+    --slider-background: black;
+    --slider-border-color: black;
+    /* --slider-border:  */
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--background-color);
+}
+.wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+    min-height: 100vh;
+    margin-top: 100px;
+}
+
+.card-container {
+    width: 45%;
+    /* min-width: 500px; */
+    box-shadow: 0 25px 0px 0px #0e92d3;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+}
+
+.card-spacing {
+    /* padding: 10px; */
+    /* width: 100%;
+    height: 100%; */
+    padding: 25px;
+}
+
+#name {
+    color: var(--secondary-color);
+}
+.card-sides-spacing {
+    padding-left: 25px;
+    padding-right: 25px;
+    /* padding-bottom: 25px; */
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-header {
+    margin: 0px;
+}
+
+.card-sub-header {
+    font-size: 10px;
+    color: var(--grey-color);
+    font-weight: bold;
+    
+}
+
+.additional-sub-header-margin {
+    margin-left: 35px;
+}
+
+.username-fontsize {
+    font-size: 14px;
+}
+
+.padding-bottom-zero {
+    padding-bottom: 0px;
+}
+
+.theme-changer-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grey-color {
+    color: var(--grey-color);
+}
+
+.cover-photo {
+    background-color: var(--simon-color);
+}
+
+.cover-photo-height {
+    height: 200px;
+}
+
+.profile-photo-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: var(--primary-color);
+    /* margin-left: 20px; */
+    /* margin-top: 100px; */
+    position: relative;
+    top: 100px;
+    /* left: 20px; */
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 190px;
+    height: 190px;
+    border-radius: 95px;
+    background-color: var(--profile-photo-color);
+}
+
+.edit-profile-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit-profile-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 2px solid;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    /* border-block-color: #D3D3D3; */
+    border-color: #D3D3D3;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.edit-profile-btn:hover {
+    background: #D3D3D3;
+}
+
+.profile-details-container {
+    margin-top: 70px;
+    padding-left: 20px;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--border-color);
+    border-bottom-style: solid;
+}
+
+.bio {
+    color: var(--grey-color);
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.body-border {
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--border-color);
+    height: 100%;
+    border-bottom: none;
+}
+
+.location-join {
+    display: flex;
+    gap:25px
+}
+
+.location {
+
+}
+.follow {
+    color: var(--grey-color);
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.bold-numbers {
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.buttons-group {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-menu {
+    background-color: var(--primary-color);
+    border-width: 0px;
+    font-size: 20px;
+    padding: 5px;
+    color: var(--light-grey-color);
+    cursor: pointer;
+}
+
+.clicked-button {
+    font-weight: bold;
+    border-bottom: 4px solid #60a8cc;
+    color: var(--secondary-color);
+}
+
+.last-card-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.mini-profile {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: var(--profile-photo-color);
+}
+
+.dots {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--grey-color);
+}
+
+.post {
+    width: 85%;
+    padding-left: 10px;
+}
+
+.post-poster {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.post-content {
+    color: var(--light-grey-color);
+    font-size: 14px;
+}
+
+.edit-post-btn {
+    font-size: 16px;
+    color: var(--grey-color);
+}
+
+.space {
+    padding-bottom: 25px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--slider-background);
+    border: 3px solid white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: -8px;
+    background-color: white;
+    border: 3px solid var(--slider-border-color);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: var(--slider-background);
+    /* border: solid white; */
+    /* bottom: -8px; */
+}
+
+/* input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+} */
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.icon {
+    /* size: 24px; */
+    /* width: 24px;
+    height: 24px; */
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.icon-sm {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.icon-md {
+    font-size: 20px;
+}
+
+.icon-grey-color {
+    color: var(--grey-color);
+}
+
+.icon-verified {
+    color: #0fa3f9;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: var(--grey-color);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    /* background-color: #2980B9; */
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.dropdown-icon {
+    color: black;
+}
+
+@media only screen and (max-width: 1250px) {
+    .card-container {
+        width: 80%;
+    }
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card-container">
+            <div class="flex-row card-spacing">
+                <div>
+                    <div class="theme-changer-container">
+                        <i class="bi bi-arrow-left-short icon"></i>
+                        <h3 id="name" class="card-header">
+                            Profile Name
+                        </h3>
+                    </div>
+                    <p class="card-header card-sub-header additional-sub-header-margin">
+                        125.7K Tweets
+                    </p>
+                </div>
+                <div class="theme-changer-container">
+                    <p id="themeText" class="card-header grey-color">
+                        Light Theme
+                    </p>
+                    <label class="switch">
+                        <input id="theme"  name="accept" value="yes" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="card-sides-spacing">
+                <div class="cover-photo cover-photo-height">
+                    <div class="profile-photo-container">
+                        <div class="profile">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="body-border">
+                    <div class="edit-profile-container">
+                        <button class="edit-profile-btn">Edit Profile</button>
+                    </div>
+                    <div class="profile-details-container">
+                        <div class="theme-changer-container">
+                            <h2 id="name" class="card-header">
+                                Profile Name
+                            </h2>
+                            <i class="bi bi-patch-check-fill icon icon-md icon-verified"></i>
+                        </div>
+                        <p class="card-header card-sub-header username-fontsize">
+                            @username
+                        </p>
+                        <p class="bio">
+                            Your bio Put Here
+                        </p>
+                        <div class="location-join">
+                            <div class="theme-changer-container">
+                                <i class="bi bi-geo-alt icon icon-sm icon-grey-color"></i>
+                                <p id="loc" class="follow">
+                                    Location
+                                </p>
+                            </div>
+                            <div class="theme-changer-container">
+                                <i class="bi bi-calendar3 icon icon-sm icon-grey-color"></i>
+                                <p class="follow">
+                                    Join Since 2021
+                                </p>
+                            </div>
+                        </div>
+                        <div class="location-join">
+                            <p class="follow">
+                                <span class="bold-numbers">256</span>Following
+                            </p>
+                            <p class="follow">
+                                <span class="bold-numbers">165</span>Followers
+                            </p>
+                        </div>
+                        <div class="buttons-group">
+                            <button class="button-menu clicked-button">Tweets</button>
+                            <button class="button-menu">Tweets & replies</button>
+                            <button class="button-menu">Media</button>
+                            <button class="button-menu">Likes</button>
+                        </div>
+                    </div>
+                    <div class="card-sides-spacing last-card-part">
+                        <div class="mini-profile">
+
+                        </div>
+                        <div class="post">
+                            <div class="post-poster">
+                                <div class="theme-changer-container">
+                                    <h3 id="name" class="card-header ">
+                                        Profile Name
+                                    </h3>
+                                    <i class="bi bi-patch-check-fill icon icon-md icon-verified"></i>
+                                </div>
+                                <p class="card-header card-sub-header username-fontsize">
+                                    @username . 32m
+                                </p>
+                            </div>
+                            <div>
+                                <p class="post-content">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                </p>
+                            </div>
+                            <div class="flex-row">
+                                <div class="theme-changer-container">
+                                    <i class="bi bi-chat icon icon-grey-color icon-md"></i>
+                                    <p class="card-header edit-post-btn">
+                                        568K
+                                    </p>
+                                </div>
+                                <div class="theme-changer-container">
+                                    <i class="bi bi-arrow-repeat icon icon-grey-color icon-md"></i>
+                                    <p class="card-header edit-post-btn">
+                                        75K
+                                    </p>
+                                </div>
+                                <div class="theme-changer-container">
+                                    <i class="bi bi-heart icon icon-grey-color icon-md"></i>
+                                    <p class="card-header edit-post-btn">
+                                        157
+                                    </p>
+                                </div>
+                                <div class="theme-changer-container">
+                                    <i class="bi bi-upload icon icon-grey-color icon-md"></i>
+                                    <!-- <p class="card-header edit-post-btn">
+                                        568K
+                                    </p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dots">
+                            ...
+                        </div>
+                    </div>
+                    <div class="space">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">select background color<i class="bi bi-caret-down-fill icon dropdown-icon"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#" id="color-one">Light Blue</a>
+              <a href="#" id="color-two">Navy Blue</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
