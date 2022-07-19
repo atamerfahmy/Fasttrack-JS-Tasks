@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+.wrap {
+    width: 100%;
+    height: 400px;
+}
+
+.buttons-wrap {
+    background-color: lightgray;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-botton {
+    border: 0px;
+    background-color: inherit;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.toggle-botton:hover {
+    background-color: darkgray;
+}
+
+.toggle-bottom-active {
+    background-color: darkgray;
+}
+
+.marg {
+    margin-left: 20px;
+}
