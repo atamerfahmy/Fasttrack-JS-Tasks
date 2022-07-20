@@ -1,0 +1,184 @@
+.main_color {
+    color: #17a6b6 !important;
+}
+
+.secondary_color {
+    color: #787878;
+
+}
+
+.head {
+    font-size: 44px;
+    margin-bottom: 0px;
+    /* width: 100px !important; */
+}
+
+.sub_header {
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.header_padding {
+    padding-left: 0px !important;
+    width: 130px !important;
+}
+
+.card_bg_color {
+    background-color: #f3f3f3;
+}
+
+.comments {
+    margin-bottom: 0px;
+    color: #9d9d9d;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.card_divs {
+    height: 150px;
+}
+
+.icon {
+    size: 5px;
+    padding-top: 3px;
+    padding-right: 2px;
+    color: #9d9d9d;
+}
+
+.header_space {
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.space {
+    margin-bottom: 35px;
+}
+
+footer {
+    background-color: #17a6b6;
+    font-size: small;
+}
+
+.footer {
+    /* height: 50vh; */
+    color: white;
+}
+
+/* .footer_text {
+    font-size: x-small;
+} */
+
+.footer_icons {
+    /* padding-top: 3px; */
+    /* padding-right: 10px; */
+    padding-left: 1px;
+    padding-top: 4px;
+    width: 25px;
+}
+
+.footer_padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contact_button {
+    background-color: white;
+    color: #17a6b6;
+    width: 125px;
+    height: 40px;
+    border: 0px;
+}
+
+.contact_icons {
+    color: white !important;
+    size: 20px !important;
+}
+
+.twit {
+    color: #17a6b6;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+ul {
+    padding-left: 18px !important;
+}
+
+.footer_input {
+    border-radius: 0px !important;
+}
+
+.button_input {
+    color: #17a6b6 !important;
+    background-color: #ececec !important;
+}
+
+.footer_env_icon {
+    background-color: white !important;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    /* width: 100%; Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 0px !important;
+}
+
+/* The Close Button */
+.close {
+    color: white !important;
+    background-color: black !important;
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-top: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.close:hover, .close:focus {
+    /* color: white;
+    background-color: black; */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.px-container {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+@media only screen and (max-width: 750px) {
+    .px-container {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+  }
